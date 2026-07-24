@@ -34,7 +34,10 @@ const focusAreas = [
 
 export function About() {
   return (
-    <section className="bg-background text-foreground px-6 py-20 md:py-28">
+    <section
+      id="about"
+      className="bg-background text-foreground px-6 py-20 md:py-28"
+    >
       <div className="mx-auto max-w-5xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

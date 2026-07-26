@@ -39,7 +39,7 @@ const projects: Project[] = [
     description:
       "An autonomous AI agent system designed to handle tasks independently, combining reasoning, planning, and tool use to act like a digital employee.",
     technologies: ["Python", "AI Agents", "FastAPI"],
-    // githubUrl: "",
+    githubUrl: "https://github.com/TayyabaRafiq/hack-0-Personal-AIEmployee",
     // liveUrl: "",
   },
   {
@@ -48,8 +48,8 @@ const projects: Project[] = [
     description:
       "An AI-native educational resource on physical AI and humanoid robotics, paired with a retrieval-augmented generation chatbot for interactive learning.",
     technologies: ["RAG", "Python", "Generative AI"],
-    // githubUrl: "",
-    // liveUrl: "",
+    githubUrl: "https://github.com/TayyabaRafiq/physicalai-textbooksecond",
+    liveUrl: "https://physicalai-textbooksecond.vercel.app/",
   },
   {
     title: "Containerized Full-Stack AI Application",
@@ -57,7 +57,7 @@ const projects: Project[] = [
     description:
       "A production-ready, containerized full-stack application integrating AI capabilities with a modern web frontend and backend architecture.",
     technologies: ["FastAPI", "Next.js", "Docker"],
-    // githubUrl: "",
+    githubUrl: "https://github.com/TayyabaRafiq/class-13-Assign-docker",
     // liveUrl: "",
   },
   {
@@ -73,10 +73,7 @@ const projects: Project[] = [
 
 export function Projects() {
   return (
-    <section
-      id="ai-projects"
-      className="bg-background text-foreground px-6 py-20 md:py-28"
-    >
+    <section className="bg-background text-foreground px-6 py-20 md:py-28">
       <div className="mx-auto max-w-5xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

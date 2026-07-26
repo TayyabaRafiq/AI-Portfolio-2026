@@ -40,6 +40,7 @@ const moreProjects: MoreProject[] = [
       "A car rental marketplace web application with a content-managed catalog and category-based browsing.",
     technologies: ["Next.js", "Tailwind CSS", "Sanity CMS"],
     githubUrl: "https://github.com/TayyabaRafiq/tamplate7",
+    liveUrl: "https://tamplate7.vercel.app/",
   },
   {
     title: "TodoFlow",
@@ -47,12 +48,13 @@ const moreProjects: MoreProject[] = [
     description:
       "A task management application combining a full-stack architecture with AI chatbot integration for a smarter workflow experience.",
     technologies: ["Next.js", "Express", "Prisma", "Neon PostgreSQL", "AI Chatbot"],
+    githubUrl: "https://github.com/TayyabaRafiq/Hackathon-2",
   },
   {
     title: "AI Engineer Portfolio Website",
     category: "Full-Stack Development",
     description:
-      "A modern AI-focused portfolio website designed to showcase my AI engineering, full-stack development, and applied AI projects.",
+      "This portfolio itself — a production-ready site built to present my AI engineering and full-stack development work.",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
   },
 ];

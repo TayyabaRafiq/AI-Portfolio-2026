@@ -4,7 +4,6 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -70,12 +69,12 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2 lg:justify-start">
-            <Link
+            <a
               href="#ai-projects"
               className={cn(buttonVariants({ size: "lg" }), "w-full sm:w-auto")}
             >
               View My AI Projects
-            </Link>
+            </a>
             <a
               href="/Tayyaba-Rafiq-Resume.pdf"
               target="_blank"

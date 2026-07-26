@@ -73,7 +73,10 @@ const projects: Project[] = [
 
 export function Projects() {
   return (
-    <section className="bg-background text-foreground px-6 py-20 md:py-28">
+    <section
+      id="ai-projects"
+      className="bg-background text-foreground px-6 py-20 md:py-28"
+    >
       <div className="mx-auto max-w-5xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

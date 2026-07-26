@@ -34,13 +34,13 @@ export function Navbar() {
         {/* Right: Nav links (desktop) */}
         <nav className="hidden items-center gap-8 md:flex">
           {navLinks.map((link) => (
-            <Link
+            <a
               key={link.href}
               href={link.href}
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
               {link.label}
-            </Link>
+            </a>
           ))}
         </nav>
 
@@ -80,14 +80,14 @@ export function Navbar() {
         >
           <nav className="flex flex-col gap-1 px-4 py-4 sm:px-6">
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="rounded-md px-2 py-2.5 text-sm text-muted-foreground transition-colors hover:bg-card hover:text-foreground"
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
             <a
               href="/Tayyaba-Rafiq-Resume.pdf"

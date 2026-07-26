@@ -2,7 +2,6 @@
 
 "use client";
 
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
 
@@ -88,12 +87,12 @@ export function Footer() {
             <ul className="flex flex-col gap-2">
               {footerNavLinks.map((link) => (
                 <li key={link.href}>
-                  <Link
+                  <a
                     href={link.href}
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground"
                   >
                     {link.label}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>

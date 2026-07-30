@@ -15,9 +15,40 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tayyaba Rafiq | AI Developer",
+  metadataBase: new URL("https://ai-portfolio-2026-vert.vercel.app"),
+  title: "Tayyaba Rafiq | AI Developer & AI Engineer",
   description:
-    "AI Developer building AI Agents, RAG Systems, and Intelligent Web Applications.",
+    "AI Developer specializing in AI Agents, Retrieval-Augmented Generation (RAG), FastAPI, Next.js, Python, and Intelligent Web Applications. Explore my portfolio, projects, and technical work.",
+  openGraph: {
+    title: "Tayyaba Rafiq | AI Developer & AI Engineer",
+    description:
+      "AI Developer specializing in AI Agents, Retrieval-Augmented Generation (RAG), FastAPI, Next.js, Python, and Intelligent Web Applications. Explore my portfolio, projects, and technical work.",
+      url: "https://ai-portfolio-2026-vert.vercel.app",
+  siteName: "Tayyaba Rafiq Portfolio",
+    type: "website",
+    images: [
+      {
+      url: "/og-image.png",
+      width: 1200,
+      height: 630,
+      alt: "Tayyaba Rafiq AI Portfolio",
+    },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Tayyaba Rafiq | AI Developer & AI Engineer",
+    description:
+      "AI Developer specializing in AI Agents, Retrieval-Augmented Generation (RAG), FastAPI, Next.js, Python, and Intelligent Web Applications. Explore my portfolio, projects, and technical work.",
+    images: [
+      {
+      url: "/og-image.png",
+      width: 1200,
+      height: 630,
+      alt: "Tayyaba Rafiq AI Portfolio",
+    },
+    ],
+  },
 };
 
 export default function RootLayout({
